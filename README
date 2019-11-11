@@ -1,8 +1,4 @@
 ********************************************************************************
-Neural networks(Back propagation)
-Sumanth Varambally
-2017MT60855
-********************************************************************************
 This is an implementation of back propagation in Python. The neural_network
 class implements a fully connected neural network with a scalable architecture.
 Both the number of hidden layers, and the number of neurons can be varied.
