@@ -10,16 +10,16 @@ The instance of the neural_network class has three important methods:
 neural network, such as number of input features, number of output classes and
 the network architecture. Syntax:
 
-network = neural_network(INPUT_FEATURES, NUM_CLASSES, [array of neurons in every hidden layer])
+```network = neural_network(INPUT_FEATURES, NUM_CLASSES, [array of neurons in every hidden layer])```
 
 2. The train function: It is used to train the model.
 Syntax:
-network.train(TRAINING_DATA, TRAINING_LABELS, NUMBER_OF_ITERATIONS, LEARNING_RATE, ERROR_TOLERANCE, LAMBDA)
-where LAMBDA is the L2 regularisation parameter.
+```network.train(TRAINING_DATA, TRAINING_LABELS, NUMBER_OF_ITERATIONS, LEARNING_RATE, ERROR_TOLERANCE, LAMBDA)```
+where `LAMBDA` is the L2 regularisation parameter.
 This function prints the loss after every iteration of training
 
 3. The feedforward function: It uses the learnt parameters and gives an output.
-Syntax: network.feedforward(TEST_DATA)
+Syntax: ```network.feedforward(TEST_DATA)```
 
-The neural_weighted_layer is a helper class, and it implements a fully connected
+The `neural_weighted_layer` is a helper class, and it implements a fully connected
 layer with either relu or sigmoid activation functions.
